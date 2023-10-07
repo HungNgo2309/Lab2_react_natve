@@ -1,0 +1,16 @@
+import React from "react";
+import { List, MD3Colors } from "react-native-paper";
+
+const Project8=()=>{
+    return(
+        <List.Section>
+            <List.Subheader>Danh sach</List.Subheader>
+            <List.Item title="First item " left={()=><List.Icon icon="folder"/>}/>
+            <List.Item
+            title="Second Item"
+            left={() => <List.Icon color={MD3Colors.tertiary70} icon="folder" />}
+            />
+        </List.Section>
+    )
+}
+export default Project8;
